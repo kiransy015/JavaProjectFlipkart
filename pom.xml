@@ -31,14 +31,17 @@
 	  				<portalusername>8660040638</portalusername>
 	  				<portalpassword>ashwini12345</portalpassword>
 	  			</systemPropertyVariables> -->
-	  			<suiteXmlFiles>
+	  			<!-- <suiteXmlFiles>
 	            	<suiteXmlFile>${testngxml}</suiteXmlFile>
 	          	</suiteXmlFiles>
 	  			<systemPropertyVariables>
 	  				<portalurl>${url}</portalurl>
 	  				<portalusername>${username}</portalusername>
 	  				<portalpassword>${password}</portalpassword>
-	  			</systemPropertyVariables>
+	  			</systemPropertyVariables> -->
+	  			<suiteXmlFiles>
+	            	<suiteXmlFile>G:\Kiran\Java\gitWorkSpace\JavaProjectFlipkart\testng.xml</suiteXmlFile>
+	          	</suiteXmlFiles>
 	  		</configuration>
 	  	</plugin>
 	  </plugins>
