@@ -24,14 +24,13 @@
         <version>3.0.0-M5</version>
 	  		<configuration>
 		  		<suiteXmlFiles>
-	            	<suiteXmlFile>G:\Kiran\Java\eclipseWorkSpace\JavaProjectFlipkart\testng.xml</suiteXmlFile>
+	            	<suiteXmlFile>G:\Kiran\Java\gitWorkSpace\JavaProjectFlipkart\testng.xml</suiteXmlFile>
 	          	</suiteXmlFiles>
 	  			<systemPropertyVariables>
 	  				<portalurl>https://www.flipkart.com/</portalurl>
 	  				<portalusername>8660040638</portalusername>
 	  				<portalpassword>ashwini12345</portalpassword>
 	  			</systemPropertyVariables>
-	  			 
 	  			<!-- <suiteXmlFiles>
 	            	<suiteXmlFile>${testngxml}</suiteXmlFile>
 	          	</suiteXmlFiles>
@@ -40,7 +39,6 @@
 	  				<portalusername>${username}</portalusername>
 	  				<portalpassword>${password}</portalpassword>
 	  			</systemPropertyVariables> -->
-	  			
 	  		</configuration>
 	  	</plugin>
 	  </plugins>
