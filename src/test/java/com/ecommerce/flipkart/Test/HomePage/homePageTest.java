@@ -22,6 +22,7 @@ public class homePageTest extends  GenericCommonMethods{
 	
 	@BeforeTest
 	public void beforeConfig(){
+		 System.out.println("user directory :"+System.getProperty("user.dir"));
 		driver = launchChromeBrowser(System.getProperty("portalurl"));
 		lp = new loginPage(driver);
 		hp = new homePage(driver);

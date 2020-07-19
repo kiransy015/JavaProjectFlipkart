@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class GenericCommonMethods {
 
 	public static WebDriver launchFirefoxBrowser(String url){
-		System.setProperty("webdriver.gecko.driver","G:\\Kiran\\Java\\eclipseWorkSpace\\flipkart\\Drivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","G:\\Kiran\\Java\\gitWorkSpace\\JavaProjectFlipkart\\Drivers\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get(url);
@@ -19,7 +19,7 @@ public class GenericCommonMethods {
 	}
 	
 	public static WebDriver launchChromeBrowser(String url){
-		System.setProperty("webdriver.chrome.driver","G:\\Kiran\\Java\\eclipseWorkSpace\\flipkart\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","G:\\Kiran\\Java\\gitWorkSpace\\JavaProjectFlipkart\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(url);
