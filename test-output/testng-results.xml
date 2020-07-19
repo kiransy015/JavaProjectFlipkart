@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50" started-at="2020-07-19T07:31:38Z" finished-at="2020-07-19T07:31:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50" started-at="2020-07-19T07:31:38Z" finished-at="2020-07-19T07:31:38Z">
+      <class name="com.ecommerce.flipkart.Test.HomePage.homePageTest">
+        <test-method status="FAIL" signature="beforeConfig(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.flipkart.Test.HomePage.homePageTest@71c7db30]" name="beforeConfig" is-config="true" duration-ms="0" started-at="2020-07-19T13:01:38Z" finished-at="2020-07-19T13:01:38Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'portalurl' is required by @Configuration on method beforeConfig but has not been marked @Optional or defined
+in G:\Kiran\Java\eclipseWorkSpace\JavaProjectFlipkart\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'portalurl' is required by @Configuration on method beforeConfig but has not been marked @Optional or defined
+in G:\Kiran\Java\eclipseWorkSpace\JavaProjectFlipkart\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeConfig -->
+        <test-method status="SKIP" signature="launchBrowser(java.lang.String)[pri:0, instance:com.ecommerce.flipkart.Test.HomePage.homePageTest@71c7db30]" name="launchBrowser" duration-ms="10" started-at="2020-07-19T13:01:38Z" finished-at="2020-07-19T13:01:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="afterConfig()[pri:0, instance:com.ecommerce.flipkart.Test.HomePage.homePageTest@71c7db30]" name="afterConfig" is-config="true" duration-ms="0" started-at="2020-07-19T13:01:38Z" finished-at="2020-07-19T13:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterConfig -->
+      </class> <!-- com.ecommerce.flipkart.Test.HomePage.homePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
