@@ -23,22 +23,22 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M5</version>
 	  		<configuration>
-		  		<suiteXmlFiles>
+		  		<!-- <suiteXmlFiles>
 	            	<suiteXmlFile>G:\Kiran\Java\gitWorkSpace\JavaProjectFlipkart\testng.xml</suiteXmlFile>
 	          	</suiteXmlFiles>
 	  			<systemPropertyVariables>
 	  				<portalurl>https://www.flipkart.com/</portalurl>
 	  				<portalusername>8660040638</portalusername>
 	  				<portalpassword>ashwini12345</portalpassword>
-	  			</systemPropertyVariables>
-	  			<!-- <suiteXmlFiles>
+	  			</systemPropertyVariables> -->
+	  			<suiteXmlFiles>
 	            	<suiteXmlFile>${testngxml}</suiteXmlFile>
 	          	</suiteXmlFiles>
 	  			<systemPropertyVariables>
 	  				<portalurl>${url}</portalurl>
 	  				<portalusername>${username}</portalusername>
 	  				<portalpassword>${password}</portalpassword>
-	  			</systemPropertyVariables> -->
+	  			</systemPropertyVariables>
 	  		</configuration>
 	  	</plugin>
 	  </plugins>
