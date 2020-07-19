@@ -3,6 +3,7 @@ package com.ecommerce.flipkart.Util;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -20,7 +21,9 @@ public class GenericCommonMethods {
 	
 	public static WebDriver launchChromeBrowser(String url){
 		System.setProperty("webdriver.chrome.driver","G:\\Kiran\\Java\\gitWorkSpace\\JavaProjectFlipkart\\Drivers\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		ChromeOptions chromeOptions= new ChromeOptions();
+		chromeOptions.setBinary("C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+		WebDriver driver = new ChromeDriver(chromeOptions);
 		driver.manage().window().maximize();
 		driver.get(url);
 		return driver;
