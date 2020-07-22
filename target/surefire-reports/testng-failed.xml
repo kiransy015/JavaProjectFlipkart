@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
-  <test name="Surefire test(failed)">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <parameter name="searchtxt" value="mobiles"/>
+  <test name="Test(failed)" parallel="none">
     <classes>
       <class name="com.ecommerce.flipkart.Test.HomePage.homePageTest">
         <methods>
@@ -10,5 +11,5 @@
         </methods>
       </class> <!-- com.ecommerce.flipkart.Test.HomePage.homePageTest -->
     </classes>
-  </test> <!-- Surefire test(failed) -->
-</suite> <!-- Failed suite [Surefire suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
